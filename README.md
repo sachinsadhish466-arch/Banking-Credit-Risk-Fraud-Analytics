@@ -1,6 +1,21 @@
-﻿# ðŸ¦ Banking Credit Risk & Fraud Analytics
+## 🚀 Live Demo
 
-## ðŸ“Œ Project Overview
+[![Banking Risk Analytics](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://banking-credit-risk-fraud-analytics-rzvdu3udrairdptcp5wa9f.streamlit.app/)
+
+**Try the live application:** [Banking Risk Analytics · Streamlit](https://banking-credit-risk-fraud-analytics-rzvdu3udrairdptcp5wa9f.streamlit.app/)
+
+The application provides interactive:
+
+- 💳 Credit Risk Assessment
+- 🚨 Fraud Detection
+- 📊 Probability-based risk assessment
+- 🎯 Model threshold-based decisions
+
+---
+
+# Banking Credit Risk & Fraud Analytics
+
+## Project Overview
 
 This project is an end-to-end banking analytics and machine-learning solution covering two major financial-risk problems:
 
@@ -20,7 +35,7 @@ The objective is to demonstrate how data science can support practical banking d
 
 ---
 
-# ðŸŽ¯ Business Problems
+# Business Problems
 
 ## 1. Credit Risk
 
@@ -30,8 +45,8 @@ The project analyzes borrower and loan characteristics and develops machine-lear
 
 The target variable is:
 
-- `0` â†’ Non-default
-- `1` â†’ Default
+- `0` → Non-default
+- `1` → Default
 
 ### Business Objective
 
@@ -47,8 +62,8 @@ The project develops machine-learning models to identify potentially fraudulent 
 
 The target variable is:
 
-- `0` â†’ Legitimate
-- `1` â†’ Fraud
+- `0` → Legitimate
+- `1` → Fraud
 
 ### Business Objective
 
