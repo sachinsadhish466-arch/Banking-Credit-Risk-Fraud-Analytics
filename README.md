@@ -1,6 +1,6 @@
-# 🏦 Banking Credit Risk & Fraud Analytics
+﻿# ðŸ¦ Banking Credit Risk & Fraud Analytics
 
-## 📌 Project Overview
+## ðŸ“Œ Project Overview
 
 This project is an end-to-end banking analytics and machine-learning solution covering two major financial-risk problems:
 
@@ -20,7 +20,7 @@ The objective is to demonstrate how data science can support practical banking d
 
 ---
 
-# 🎯 Business Problems
+# ðŸŽ¯ Business Problems
 
 ## 1. Credit Risk
 
@@ -30,8 +30,8 @@ The project analyzes borrower and loan characteristics and develops machine-lear
 
 The target variable is:
 
-- `0` → Non-default
-- `1` → Default
+- `0` â†’ Non-default
+- `1` â†’ Default
 
 ### Business Objective
 
@@ -47,8 +47,8 @@ The project develops machine-learning models to identify potentially fraudulent 
 
 The target variable is:
 
-- `0` → Legitimate
-- `1` → Fraud
+- `0` â†’ Legitimate
+- `1` â†’ Fraud
 
 ### Business Objective
 
@@ -65,35 +65,4 @@ Identify fraudulent transactions while balancing:
 
 ![Banking Credit Risk & Fraud Analytics Architecture](docs/architecture.png)
 
-The project follows an end-to-end banking analytics workflow:
-
-```text
-                    Banking Analytics
-                           │
-              ┌────────────┴────────────┐
-              │                         │
-        Credit Risk                Fraud Detection
-              │                         │
-        Data Cleaning              Data Cleaning
-              │                         │
-             EDA                       EDA
-              │                         │
-       Statistical Analysis      Imbalance Analysis
-              │                         │
-      Feature Engineering       Feature Engineering
-              │                         │
-       ML Model Training         ML Model Training
-              │                         │
-       Model Evaluation          Model Evaluation
-              │                         │
-          SHAP Analysis           SHAP Analysis
-              │                         │
-       Threshold Analysis       Threshold Analysis
-              │                         │
-              └────────────┬────────────┘
-                           │
-                    SQL Analytics
-                           │
-                  Business Insights
-                           │
-                  Risk Recommendations
+This project follows an end-to-end banking analytics workflow covering credit risk assessment, fraud detection, model explainability, threshold optimization, SQL analytics, and business recommendations.
