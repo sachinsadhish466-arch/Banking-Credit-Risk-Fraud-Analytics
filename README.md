@@ -63,6 +63,10 @@ Identify fraudulent transactions while balancing:
 
 # 🏗️ Project Architecture
 
+![Banking Credit Risk & Fraud Analytics Architecture](docs/architecture.png)
+
+The project follows an end-to-end banking analytics workflow:
+
 ```text
                     Banking Analytics
                            │
